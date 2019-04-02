@@ -1,0 +1,155 @@
+body 
+{
+	font-family: Verdana, sans-serif;
+	background-color: black;
+	color: white;
+}
+
+.mySlides {display: none;}
+
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+div.title,div.login{
+	float: left;
+	width: 50%;
+	height: 50px;
+	background-color: red;
+	vertical-align: middle;
+}
+
+div.about{
+	float: left;
+	width:62%;
+}
+
+div.form{
+	background-color: grey;
+	padding: 5px;
+	float:left;
+	width:37.12%;
+}
+
+img{
+	width:50px;
+	height: 50px;
+	float: left;
+}
+
+form.login{
+	margin: 10px;
+	display: inline;
+	float: right;
+}
+
+input,fieldset{
+	margin: 10px;
+	padding: 10px;
+	width: 400px;
+	border: 2.5px cyan solid;
+	border-radius:15px;
+}
+
+h2.form{
+	font-size: 2em;
+	text-decoration: underline;
+}
+
+legend{
+	font-size: 1.25em;
+}
+
+form.login input{
+	margin: 0px;
+	padding: 5px;
+	width: 175px;
+	height: 20px;
+	border: 2.5px black solid;
+	border-radius:15px;
+}
+
+input[type="radio"]{
+	margin: 10px;
+	padding: 10px;
+	display: inline;
+	width: auto;
+}
+
+input[type="submit"],input[type="reset"]
+{
+	background-color: red;
+	width: 200px;
+	display: inline;
+}
+
+button.login{
+	width: 100px;
+	height: 25px;
+	border: 2.5px black solid;
+	border-radius: 20px;
+}
+
+input:focus{
+	border: 4px blue solid;
+	background-color: yellow;
+	border-radius: 0px;
+}
